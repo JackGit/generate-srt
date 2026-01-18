@@ -10,3 +10,11 @@
 
 ## use srt file
 1. use srt file directly from fcpx: File -> Import -> Captions, select your srt file
+
+
+
+## UV V.S Conda
+python version > 3.12
+
+uv add xxxpackage
+uv run python generate.py
