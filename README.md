@@ -1,4 +1,19 @@
-## genrate srt file
+## about env
+python version > 3.12
+
+recommend to use `uv` as package manager
+
+add package like:
+```bash
+uv add xx package
+```
+
+run code like:
+```bash
+uv run python generate.py
+```
+
+## generate srt file
 1. put your videos into `input` folder. Currently supports `.mp4` `.mov` and `.m4v` format
 2. run `python generate.py`
 3. `.srt` and `.wav` files will be generated into `output` folder in batch
@@ -12,9 +27,3 @@
 1. use srt file directly from fcpx: File -> Import -> Captions, select your srt file
 
 
-
-## UV V.S Conda
-python version > 3.12
-
-uv add xxxpackage
-uv run python generate.py
